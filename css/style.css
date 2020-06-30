@@ -1,10 +1,10 @@
-body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
+body { font-size: 16px; line-height: 1.8; color: #6c757d; font-family: -apple-system, BlinkMacSystemFont, "Montserrat", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; }
 
 ::-moz-selection { background: yellow; }
 
 ::selection { background: yellow; }
 
-h1, h2, h3, h4, h5 { color: #000; }
+h1, h2, h3, h4, h5 { color: #333333; }
 
 a { -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
@@ -83,7 +83,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero, .intro { height: 90vh; min-height: 700px; }
 
-.templateux-hero h1, .intro h1 { color: #000; font-size: 70px; }
+.templateux-hero h1, .intro h1 { color: #333333; font-size: 32px; }
 
 @media (max-width: 991.98px) { .templateux-hero h1, .intro h1 { font-size: 36px; } }
 
@@ -99,7 +99,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 @media (max-width: 991.98px) { .templateux-section { padding: 3em 0; } }
 
-.templateux-section h2 { line-height: 1.5; }
+.templateux-section h2 { line-height: 40%; }
 
 .templateux-cta { padding: 7em 0; display: block; background: #f8f9fa; position: relative; }
 
