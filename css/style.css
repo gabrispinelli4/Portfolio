@@ -20,9 +20,9 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .toggle-menu:active, .templateux-navbar .toggle-menu:focus { outline: none; }
 
-.templateux-navbar .site-logo { position: relative; top: -10px; z-index: 9999; }
+.templateux-navbar .site-logo { position: relative; top: -2px; z-index: 9999; }
 
-.templateux-navbar .site-logo a { font-size: 30px; color: #000; }
+.templateux-navbar .site-logo a { font-size: 20px; color: #333333; font-weight: 600; font-family: 'Muli', sans-serif;}
 
 .templateux-navbar .templateux-menu { position: relative; }
 
@@ -30,7 +30,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-navbar .templateux-menu ul li { display: inline-block; }
 
-.templateux-navbar .templateux-menu ul li a { margin-right: 20px; font-size: 13px; text-transform: uppercase; letter-spacing: .2em; color: #000; position: relative; padding-bottom: 5px; display: block; }
+.templateux-navbar .templateux-menu ul li a { margin-right: 20px; font-size: 13px; letter-spacing: .1em; color: #000; position: relative; padding-bottom: 5px; display: block; font-weight: 600; }
 
 .templateux-navbar .templateux-menu ul li a:before { content: ""; position: absolute; bottom: 0; height: 2px; width: 0; left: 0; background: #dc3545; -webkit-transition: .15s width ease; -o-transition: .15s width ease; transition: .15s width ease; }
 
@@ -149,7 +149,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-footer .container-fluid { max-width: 100%; }
 
-.templateux-footer small { font-size: 16px; }
+.templateux-footer small { font-size: 10px; color: #b3b3b3; }
 
 .templateux-footer p:last-child { margin-bottom: 0; }
 
