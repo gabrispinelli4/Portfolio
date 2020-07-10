@@ -55,15 +55,15 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .menu-open .templateux-navbar { position: fixed; left: 0; top: 0; }
 
-@media (max-width: 767.98px) { .menu-open .site-logo a { color: #000 !important; } }
+@media (max-width: 767.98px) { .menu-open .site-logo a { color: #333333 !important; } }
 
-.menu-open .navbar-light .hamburger .hamburger-inner, .menu-open .navbar-light .hamburger .hamburger-inner::before, .menu-open .navbar-light .hamburger .hamburger-inner::after { background-color: #000; }
+.menu-open .navbar-light .hamburger .hamburger-inner, .menu-open .navbar-light .hamburger .hamburger-inner::before, .menu-open .navbar-light .hamburger .hamburger-inner::after { background-color: #333333; }
 
 .menu-open .templateux-menu li { opacity: 0; visibility: hidden; margin-left: -10px; position: relative; -webkit-transition: .3s all ease-in-out; -o-transition: .3s all ease-in-out; transition: .3s all ease-in-out; }
 
 .menu-open .templateux-menu li.staggard { opacity: 1; visibility: visible; margin-left: 0px; }
 
-@media (max-width: 767.98px) { .menu-open .templateux-menu li a { color: #000 !important; } }
+@media (max-width: 767.98px) { .menu-open .templateux-menu li a { color: #333333 !important; } }
 
 .templateux-hero { background-size: cover; background-repeat: no-repeat; background-position: center center; position: relative; overflow: hidden; }
 
