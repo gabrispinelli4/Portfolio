@@ -169,17 +169,17 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 textarea.form-control { height: inherit; }
 
-.button { padding: 15px 40px; display: inline-block; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: #fff; border-radius: 30px; border: none; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
+.button { padding: 15px 40px; display: inline-block; font-size: 13px; letter-spacing: .2em; text-transform: uppercase; color: #15F2CB; border-radius: 30px; border: 2px solid; border-color: #15F2CB; .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
 .button:hover, .button:active, .button:focus { outline: none; }
 
-.button.button--red { background:#5E25FF; }
+.button.button--red {;}
 
-.button.button--red:hover { text-decoration: none; color: #fff; -webkit-box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.4); box-shadow: 0 20px 40px -5px rgba(0, 0, 0, 0.4);  }
+.button.button--red:hover { background-color: #15F2CB; text-decoration: none; color: #333;  }
 
 .go-down { position: relative; width: 40px; height: 40px; display: block; margin-left: -15px; position: absolute; margin-top: 70px; }
 
-.go-down:before { width: 2px; height: 40px; right: 27px; content: ""; display: block; position: absolute; background:#5E25FF; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); pointer-events: none; top: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
+.go-down:before { width: 2px; height: 40px; right: 27px; content: ""; display: block; position: absolute; background:#908EFD; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); pointer-events: none; top: 0; -webkit-transition: .3s all ease; -o-transition: .3s all ease; transition: .3s all ease; }
 
 .go-down:after { content: ""; position: absolute; left: 50%; bottom: -12px; border: solid transparent; content: " "; height: 0; width: 0; margin-left: -1px; position: absolute; border-top-color:#5E25FF; border-width: 7px; margin-left: -7px; }
 
