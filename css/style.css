@@ -7,6 +7,7 @@ body { font-size: 16px; line-height: 1.8; color: #686868; font-family: -apple-sy
 .sub { letter-spacing: 0.2rem; text-transform: uppercase; color: #cccccc;}
 
 .hh { font-weight: 300; }
+.gg { color: #333333; font-weight: 500;}
 
 h1, h2, h3, h4, h5, h6 { color: #333333; font-family:'Mulish', sans-serif;}
 
@@ -87,7 +88,7 @@ a:hover, a:active, a:focus { text-decoration: none; outline: none; }
 
 .templateux-hero, .intro { height: 90vh; min-height: 700px; }
 
-.templateux-hero h1, .intro h1 { color: #333333; font-size: 40px; font-weight: 300;}
+.templateux-hero h1, .intro h1 .jj { color: #333333; font-size: 36px; font-weight: 600;}
 
 @media (max-width: 991.98px) { .templateux-hero h1, .intro h1 { font-size: 36px; } }
 
@@ -178,6 +179,8 @@ textarea.form-control { height: inherit; }
 .button:hover, .button:active, .button:focus { outline: none; }
 
 .button.button--red {;}
+
+
 
 .button.button--red:hover { background-color: #15F2CB; text-decoration: none; color: #333;  }
 
